@@ -4,8 +4,8 @@
   "description": "vue 单页应用 ",
   "main": "index.js",
   "scripts": {
-    "dev-server": "node ./build/dev-server",//本地服务模式
-    "dev-build": "webpack --config ./build/webpack.config"// 编译本地资源
+    "dev-server": "node ./build/dev-server",
+    "dev-build": "webpack --config ./build/webpack.config"
   },
   "repository": {
     "type": "git",
