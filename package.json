@@ -1,0 +1,19 @@
+{
+  "name": "1vue-spa",
+  "version": "1.0.0",
+  "description": "vue 单页应用 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunstaotao/VUE-SPA.git"
+  },
+  "author": "汪涛",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunstaotao/VUE-SPA/issues"
+  },
+  "homepage": "https://github.com/sunstaotao/VUE-SPA#readme"
+}
