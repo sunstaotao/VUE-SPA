@@ -4,7 +4,9 @@
 3. `npm install html-webpack-plugin --save-d` --本地安装生成html文件插件
 4. 创建app文件夹
 #### 热加载
-1. npm install webpack-dev-middleware webpack-hot-middleware --save-dev
+
+1. `npm install webpack-dev-middleware webpack-hot-middleware --save-dev` --本地服务所需中间件
+2. `npm install webpack-dev-middleware --save-dev` -- 模块热替换插件
 ### 项目运行环境
 1. npm i
 2. 

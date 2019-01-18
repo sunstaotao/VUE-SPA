@@ -5,3 +5,6 @@ let view = new VUE({
   template:'<IndexPage></IndexPage>',
   components:{IndexPage}
 })
+if (module.hot) {
+  module.hot.accept();
+}

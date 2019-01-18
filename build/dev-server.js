@@ -4,6 +4,8 @@ let Config = require('./webpack.dev.conf')
 //创建express实例
 let app = express()
 let compiler = webpack(Config)
+
+
 //使用中间件
 let devMiddleware = require('webpack-dev-middleware')(compiler,{
   publicPath:Config.output.publicPath,
@@ -12,8 +14,12 @@ let devMiddleware = require('webpack-dev-middleware')(compiler,{
     chunks: false
   }
 })
+let hotMiddleware = require('webpack-hot-middleware')(compiler,{
+  noInfo: true, publicPath: Config.output.publicPath
+})
 // 注册中间件
 app.use(devMiddleware)
+app.use(hotMiddleware)
 
 app.listen(8888,function (err) {
   if (err){
