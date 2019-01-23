@@ -9,7 +9,7 @@ let Config = {
   //  入口
   // entry:["webpack-hot-middleware/client?noInfo=true&reload=true",path.resolve(__dirname, '../app/index/index.js')],
   entry: {
-    index: ['./build/dev-client', path.resolve(__dirname, '../app/index/index.js')]
+    index: [path.resolve(__dirname, '../app/index/index.js')]
   },
   //  输出
   output: {
